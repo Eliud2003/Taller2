@@ -1,0 +1,99 @@
+/* Selector universal */
+* {
+    color: #74125b; /* Color de fuente diferente de negro */
+    font-style: italic; /* Fuente en itálicas */
+}
+body {
+    background-color: #f396aa5b;
+    ;
+    
+}
+.home {
+    background-color: #f396aab0;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #f396aaa8;  
+    
+}
+
+/* Estilo para los enlaces */
+nav a {
+    padding: 10px;    
+    border-radius: 10px;
+    border: 1px solid #f396aaa8;
+    
+}
+.text-centrado{
+    text-align: center;
+}
+.fondo{
+    background-color: #f396aaa8;
+    
+}
+.video{
+    border: 20px solid #f396aaa8;
+    border-radius: 20px;
+}
+
+/* Selector por ID */
+#contacto {
+    text-align: center; /* Alineación de texto centrado */
+    text-decoration: underline; /* Decoración de texto subrayado */
+}
+
+/* Selector para elemento en línea */
+span.important {
+    font-weight: bold; /* Texto en negritas */
+    text-transform: capitalize; /* Transformación del texto a capitalizado */
+}
+
+/* Selector combinador */
+
+
+/* Selector de atributos para imágenes */
+img[src] {
+    width: 150px; /* Ancho */
+    height: 150px; /* Alto */
+    border-radius: 50%; /* Radio del borde */
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+.centrar-tabla {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #f396aab0; /* Opcional, para visualizar la tabla */
+}
+
+.ttabla{
+    font-size: 22px; /* Tamaño de fuente personalizado */
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+    padding: 10px; /* Espaciado interno de las celdas */
+    background-color: #f396aab0;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #f396aaa8;
+}
+.dtabla{
+    font-size: 16px; /* Tamaño de fuente personalizado */
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+    padding: 10px; /* Espaciado interno de las celdas */    
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #f396aaa8;
+
+}
+.bordes {
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
